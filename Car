@@ -1,0 +1,21 @@
+package vudnaes.learnProgramming;
+
+
+public class Car {
+    private int doors;
+    private int wheels;
+    private String model;
+    private String Engine;
+
+    public void setModel (String model){
+        String validModel = model.toLowerCase();
+        if (validModel.equals("Carrera")) {
+            this.model = model;
+        }
+    }
+
+    public String getModel () {
+
+
+    }
+}
